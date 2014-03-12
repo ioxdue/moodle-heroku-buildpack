@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # bin/compile <build-dir> <cache-dir>
 
+echo "ioxdue test"
+
+
 # fail fast
 set -e
 
