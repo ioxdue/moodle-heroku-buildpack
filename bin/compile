@@ -35,7 +35,7 @@ fi
 APACHE_URL="http://apache.fastbull.org//httpd/httpd-$APACHE_VERSION.tar.gz"
 #APACHE_URL="https://s3-ap-southeast-2.amazonaws.com/ngson2000/apache-$APACHE_VERSION.tar.gz"
 echo "-----> Bundling Apache version $APACHE_VERSION"
-curl --silent --max-time 60 --location "$APACHE_URL" | tar xz
+curl --silent --max-time 60 --location "$APACHE_URL" | tar xvf
 
 PHP_URL="https://s3-ap-southeast-2.amazonaws.com/ngson2000/php-$PHP_VERSION.tar.gz"
 echo "-----> Bundling PHP version $PHP_VERSION"
